@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38924f1a8ed4bb34d900c78b25936aa7, type: 3}
+  m_Name: Holy Laser Physic
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectileData
+  copyFrom: {fileID: 0}
+  defaultSprite: {fileID: 4010839835458003660, guid: 3d62d18631b0ba44abe287269f8196e4, type: 3}
+  ComponentData: {fileID: 11400000, guid: 79d8bfbb621a7324695bd6901305f0f3, type: 2}
+  PhaseDatas:
+  - phasePosition: 0
+    positionOffset: {x: 0, y: 0}
+    directionOffset: 0
+    enableCollider: 1
+    duration: 0
+    useDurationFactor: 0
+    loopAnimation: 0
+    animation:
+      clipName: 
+      frameRate: 12
+      directionType: 2
+      flipMode: 0
+      Down:
+      - {fileID: -8298314036999463118, guid: 3d62d18631b0ba44abe287269f8196e4, type: 3}
+      - {fileID: 8540722057015563535, guid: 3d62d18631b0ba44abe287269f8196e4, type: 3}
+      - {fileID: 4010839835458003660, guid: 3d62d18631b0ba44abe287269f8196e4, type: 3}
+      - {fileID: 8192528919813170734, guid: 3d62d18631b0ba44abe287269f8196e4, type: 3}
+      - {fileID: 3680973379536239702, guid: 3d62d18631b0ba44abe287269f8196e4, type: 3}
+      - {fileID: 4948531963829235498, guid: 3d62d18631b0ba44abe287269f8196e4, type: 3}
+      - {fileID: 7528335266166379902, guid: 3d62d18631b0ba44abe287269f8196e4, type: 3}
+      - {fileID: 3242952895826601786, guid: 3d62d18631b0ba44abe287269f8196e4, type: 3}
+      - {fileID: -5394183059694784215, guid: 3d62d18631b0ba44abe287269f8196e4, type: 3}
+      - {fileID: 2073994174595286638, guid: 3d62d18631b0ba44abe287269f8196e4, type: 3}
+      - {fileID: -5146990071162564675, guid: 3d62d18631b0ba44abe287269f8196e4, type: 3}
+      - {fileID: -845707468787247656, guid: 3d62d18631b0ba44abe287269f8196e4, type: 3}
+      - {fileID: 6867763821844287802, guid: 3d62d18631b0ba44abe287269f8196e4, type: 3}
+      - {fileID: -5251166947694083227, guid: 3d62d18631b0ba44abe287269f8196e4, type: 3}
+      - {fileID: -1843753861940825570, guid: 3d62d18631b0ba44abe287269f8196e4, type: 3}
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    sfxChance: 0
+    sfxClips: []

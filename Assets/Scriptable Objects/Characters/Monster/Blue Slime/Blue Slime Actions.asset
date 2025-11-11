@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b206a970a532a9b458ad0250337d8796, type: 3}
+  m_Name: Blue Slime Actions
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterActionData
+  idle:
+    priority: 0
+    animation:
+      clipName: 
+      frameRate: 2
+      directionType: 2
+      flipMode: 0
+      Down:
+      - {fileID: -6429493399158520243, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      - {fileID: 3648764528808031850, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    lockedActionFrame: 0
+  move:
+    priority: 0
+    animation:
+      clipName: 
+      frameRate: 4
+      directionType: 2
+      flipMode: 0
+      Down:
+      - {fileID: -6429493399158520243, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      - {fileID: 3648764528808031850, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    lockedActionFrame: 0
+  dash:
+    priority: 10
+    animation:
+      clipName: 
+      frameRate: 1
+      directionType: 2
+      flipMode: 0
+      Down:
+      - {fileID: -7608935580259569964, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    lockedActionFrame: 0
+  cast:
+    priority: 10
+    animation:
+      clipName: 
+      frameRate: 1
+      directionType: 2
+      flipMode: 1
+      Down:
+      - {fileID: -7608935580259569964, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    lockedActionFrame: 1
+  hit:
+    priority: 20
+    animation:
+      clipName: 
+      frameRate: 1
+      directionType: 2
+      flipMode: 0
+      Down:
+      - {fileID: -3688568089006841474, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    lockedActionFrame: 0
+  death:
+    priority: 100
+    animation:
+      clipName: 
+      frameRate: 2
+      directionType: 2
+      flipMode: 0
+      Down:
+      - {fileID: -3688568089006841474, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      - {fileID: -1521002261, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    lockedActionFrame: 0
+  genericSkill:
+    priority: 10
+    animation:
+      clipName: 
+      frameRate: 1
+      directionType: 2
+      flipMode: 1
+      Down:
+      - {fileID: -7608935580259569964, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      - {fileID: 1631883667, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    lockedActionFrame: 2
+    skillData: {fileID: 0}
+    skillDelayFrame: 1
+    scaleFrameRateWithAttackSpeed: 1
+  meleeSkill:
+    priority: 10
+    animation:
+      clipName: 
+      frameRate: 1
+      directionType: 2
+      flipMode: 1
+      Down:
+      - {fileID: -7608935580259569964, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      - {fileID: 1631883667, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      Up:
+      - {fileID: -7608935580259569964, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      - {fileID: 1631883667, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      Left:
+      - {fileID: -7608935580259569964, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      - {fileID: 1631883667, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      Right:
+      - {fileID: -7608935580259569964, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      - {fileID: 1631883667, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      LeftDown:
+      - {fileID: -7608935580259569964, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      - {fileID: 1631883667, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      LeftUp:
+      - {fileID: -7608935580259569964, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      - {fileID: 1631883667, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      RightDown:
+      - {fileID: -7608935580259569964, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      - {fileID: 1631883667, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      RightUp:
+      - {fileID: -7608935580259569964, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      - {fileID: 1631883667, guid: 3e109c762adfe794689512c51f561329, type: 3}
+    lockedActionFrame: 2
+    skillData: {fileID: 0}
+    skillDelayFrame: 1
+    scaleFrameRateWithAttackSpeed: 1
+  rangedSkill:
+    priority: 10
+    animation:
+      clipName: 
+      frameRate: 1
+      directionType: 2
+      flipMode: 1
+      Down:
+      - {fileID: -7608935580259569964, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      - {fileID: 1631883667, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      Up:
+      - {fileID: -7608935580259569964, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      - {fileID: 1631883667, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      Left:
+      - {fileID: -7608935580259569964, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      - {fileID: 1631883667, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      Right:
+      - {fileID: -7608935580259569964, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      - {fileID: 1631883667, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      LeftDown:
+      - {fileID: -7608935580259569964, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      - {fileID: 1631883667, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      LeftUp:
+      - {fileID: -7608935580259569964, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      - {fileID: 1631883667, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      RightDown:
+      - {fileID: -7608935580259569964, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      - {fileID: 1631883667, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      RightUp:
+      - {fileID: -7608935580259569964, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      - {fileID: 1631883667, guid: 3e109c762adfe794689512c51f561329, type: 3}
+    lockedActionFrame: 2
+    skillData: {fileID: 0}
+    skillDelayFrame: 1
+    scaleFrameRateWithAttackSpeed: 1
+  primarySkillActions:
+  - priority: 10
+    animation:
+      clipName: 
+      frameRate: 1
+      directionType: 2
+      flipMode: 1
+      Down:
+      - {fileID: -7608935580259569964, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      - {fileID: 1631883667, guid: 3e109c762adfe794689512c51f561329, type: 3}
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    lockedActionFrame: 2
+    skillData: {fileID: 11400000, guid: a7787502eb8a597428074320c6d15d5e, type: 2}
+    skillDelayFrame: 1
+    scaleFrameRateWithAttackSpeed: 1
+  secondarySkillActions: []

@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b206a970a532a9b458ad0250337d8796, type: 3}
+  m_Name: Potion Seller Action
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterDataActions
+  idle:
+    priority: 0
+    animation:
+      clipName: 
+      frameRate: 6
+      directionType: 2
+      flipMode: 1
+      Down:
+      - {fileID: 3021501409066260199, guid: def88d88d32b2cd4abef6eae90034388, type: 3}
+      - {fileID: 3925478523393723833, guid: def88d88d32b2cd4abef6eae90034388, type: 3}
+      - {fileID: 6665987244907073428, guid: def88d88d32b2cd4abef6eae90034388, type: 3}
+      - {fileID: 1002781704978076721, guid: def88d88d32b2cd4abef6eae90034388, type: 3}
+      - {fileID: -582921108433023838, guid: def88d88d32b2cd4abef6eae90034388, type: 3}
+      - {fileID: -5881788819070251062, guid: def88d88d32b2cd4abef6eae90034388, type: 3}
+      - {fileID: -8044471712874359663, guid: def88d88d32b2cd4abef6eae90034388, type: 3}
+      - {fileID: -3567863588642728722, guid: def88d88d32b2cd4abef6eae90034388, type: 3}
+      - {fileID: -1990703697306078346, guid: def88d88d32b2cd4abef6eae90034388, type: 3}
+      - {fileID: -127729884028834429, guid: def88d88d32b2cd4abef6eae90034388, type: 3}
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    lockedActionFrame: 0
+    sfxChance: 0.6
+    sfxClips: []
+  move:
+    priority: 0
+    animation:
+      clipName: 
+      frameRate: 8
+      directionType: 0
+      flipMode: 0
+      Down: []
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    lockedActionFrame: 0
+    sfxChance: 0.6
+    sfxClips: []
+  dash:
+    priority: 0
+    animation:
+      clipName: 
+      frameRate: 8
+      directionType: 0
+      flipMode: 0
+      Down: []
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    lockedActionFrame: 0
+    sfxChance: 0.6
+    sfxClips: []
+  cast:
+    priority: 0
+    animation:
+      clipName: 
+      frameRate: 8
+      directionType: 0
+      flipMode: 0
+      Down: []
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    lockedActionFrame: 0
+    sfxChance: 0.6
+    sfxClips: []
+  hit:
+    priority: 0
+    animation:
+      clipName: 
+      frameRate: 8
+      directionType: 0
+      flipMode: 0
+      Down: []
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    lockedActionFrame: 0
+    sfxChance: 0.6
+    sfxClips: []
+  death:
+    priority: 0
+    animation:
+      clipName: 
+      frameRate: 8
+      directionType: 0
+      flipMode: 0
+      Down: []
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    lockedActionFrame: 0
+    sfxChance: 0.6
+    sfxClips: []
+  genericSkill:
+    priority: 0
+    animation:
+      clipName: 
+      frameRate: 8
+      directionType: 0
+      flipMode: 0
+      Down: []
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    lockedActionFrame: 0
+    sfxChance: 0.6
+    sfxClips: []
+    skillData: {fileID: 0}
+    skillDelayFrame: 0
+    scaleFrameRateWithAttackSpeed: 0
+  meleeSkill:
+    priority: 0
+    animation:
+      clipName: 
+      frameRate: 8
+      directionType: 0
+      flipMode: 0
+      Down: []
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    lockedActionFrame: 0
+    sfxChance: 0.6
+    sfxClips: []
+    skillData: {fileID: 0}
+    skillDelayFrame: 0
+    scaleFrameRateWithAttackSpeed: 0
+  rangedSkill:
+    priority: 0
+    animation:
+      clipName: 
+      frameRate: 8
+      directionType: 0
+      flipMode: 0
+      Down: []
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    lockedActionFrame: 0
+    sfxChance: 0.6
+    sfxClips: []
+    skillData: {fileID: 0}
+    skillDelayFrame: 0
+    scaleFrameRateWithAttackSpeed: 0
+  primarySkillActions: []
+  secondarySkillActions: []

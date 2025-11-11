@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7faaa1544ee94e54b9179e8d6f7cfec8, type: 3}
+  m_Name: Golem
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterDataNew
+  copyFrom: {fileID: 0}
+  characterName: Golem
+  description: Golem
+  icon: {fileID: -1792804618, guid: 8669d7f59bf1c1948bf0125faf0da58e, type: 3}
+  defaultSprite: {fileID: -1792804618, guid: 8669d7f59bf1c1948bf0125faf0da58e, type: 3}
+  tag: 1
+  actions: {fileID: 11400000, guid: afe1b319cf77ebe489d617f78056dfb8, type: 2}
+  properties: {fileID: 11400000, guid: 209d276543de509449c7d9466c2bfb2b, type: 2}
+  settings: {fileID: 11400000, guid: f85c00e62cd3e3e4ebafdfa85eab5b5a, type: 2}
+  componentData: {fileID: 11400000, guid: 373dbef91a3d28048ba899bb3b693a07, type: 2}

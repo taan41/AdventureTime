@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7faaa1544ee94e54b9179e8d6f7cfec8, type: 3}
+  m_Name: Equipment Seller
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterDataNew
+  copyFrom: {fileID: 0}
+  characterName: NPC 1
+  description: Character Description
+  icon: {fileID: -4856321085196081213, guid: 022a802add1f2a14f9e271fb55476d45, type: 3}
+  defaultSprite: {fileID: -4856321085196081213, guid: 022a802add1f2a14f9e271fb55476d45, type: 3}
+  tag: 2
+  actions: {fileID: 11400000, guid: 9c2d2d9b5eb863a419aa2cb8a4284af5, type: 2}
+  properties: {fileID: 11400000, guid: 2a0ece2b7a3058845bf836ec8989085a, type: 2}
+  settings: {fileID: 11400000, guid: c8f40eb3a9f5c7140816d4e2dc971ad0, type: 2}
+  componentData: {fileID: 11400000, guid: cca94888dbfaf3e4da64b285f02ccc56, type: 2}

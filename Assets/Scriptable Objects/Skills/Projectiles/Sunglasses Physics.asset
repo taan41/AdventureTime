@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38924f1a8ed4bb34d900c78b25936aa7, type: 3}
+  m_Name: Sunglasses Physics
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectileData
+  copyFrom: {fileID: 0}
+  defaultSprite: {fileID: 2679764106730835597, guid: 70c3b59025c7f884397982633264ff2d, type: 3}
+  ComponentData: {fileID: 11400000, guid: e54135c7955241446a6fd8ade21aebe8, type: 2}
+  PhaseDatas:
+  - phasePosition: 2
+    positionOffset: {x: 0, y: 0}
+    directionOffset: -1
+    enableCollider: 1
+    findNewTarget: 1
+    duration: 0.3
+    useDurationFactor: 0
+    loopAnimation: 0
+    animation:
+      clipName: 
+      frameRate: 1
+      directionType: 2
+      flipMode: 1
+      Down:
+      - {fileID: 2679764106730835597, guid: 70c3b59025c7f884397982633264ff2d, type: 3}
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    sfxChance: 0
+    sfxClips: []

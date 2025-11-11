@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 013d760ebf40616468746384dde429bf, type: 3}
+  m_Name: FloatingTextData
+  m_EditorClassIdentifier: Assembly-CSharp::FloatingTextData
+  CopySource: {fileID: 0}
+  poolSize: 100
+  fixedPoolSize: 1
+  tmpFont: {fileID: 11400000, guid: c7eda4c95a9222e4bb3c8eabf3739254, type: 2}
+  legacyFont: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
+  fontSize: 8
+  positionOffset: {x: 0, y: -1, z: 0}

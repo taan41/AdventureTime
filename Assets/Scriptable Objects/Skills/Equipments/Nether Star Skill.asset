@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16baf9c7bbbaf5146a4a72e5a7e28632, type: 3}
+  m_Name: Nether Star Skill
+  m_EditorClassIdentifier: Assembly-CSharp::SkillDataNew
+  copyFrom: {fileID: 0}
+  icon: {fileID: -1472874673, guid: 9fddf6bfd676f544b94b9c109a255046, type: 3}
+  skillName: Holy Shi
+  description: Very holy
+  type: 0
+  rangeType: 2
+  directionType: 3
+  baseStats:
+    Stats:
+    - StatName: Damage
+      Type: 0
+      value: 50
+    - StatName: Recovery
+      Type: 0
+      value: 0
+    - StatName: Cooldown
+      Type: 0
+      value: 1.5
+    - StatName: StaminaCost
+      Type: 0
+      value: 0
+    - StatName: ManaCost
+      Type: 0
+      value: 15
+    - StatName: CastTime
+      Type: 0
+      value: 0
+    - StatName: ActivateRange
+      Type: 0
+      value: 5
+    - StatName: ProjectileSpeedBonus
+      Type: 0
+      value: 0
+    - StatName: ProjectileRangeBonus
+      Type: 0
+      value: 0
+    - StatName: ProjectileDurationBonus
+      Type: 0
+      value: 0
+    - StatName: ProjectileSizeBonus
+      Type: 0
+      value: 0
+    - StatName: ProjectileHitIntervalBonus
+      Type: 0
+      value: 0
+    - StatName: ProjectileKnockbackBonus
+      Type: 0
+      value: 0
+    - StatName: ProjectileKnockbackDurationBonus
+      Type: 0
+      value: 0
+    - StatName: ProjectileSpreadAngleBonus
+      Type: 0
+      value: 0
+    - StatName: ProjectileCountBonus
+      Type: 0
+      value: 0
+  rules:
+    autoCast: 0
+    cooldownAfterCast: 0
+  phaseData: []
+  projectileDatas:
+  - physicData: {fileID: 11400000, guid: d82a86f1f0863d142815c9117fb0da83, type: 2}
+    specificData:
+      projectileName: Holy laser
+      count: 5
+      spawnDelay: 0.3
+      spawnGap: 3
+      stats:
+        damageFactor: 1
+        healFactor: 0
+        staminaRecoveryFactor: 0
+        manaRecoveryFactor: 0
+        size: 1
+        speed: 0
+        speedOverTimeFactor: 1
+        range: 0
+        hitInterval: 0
+        knockback: 0
+        knockbackDuration: 0
+        spreadAngle: 0
+      settings:
+        additionalDisableCondition:
+          OnOwnerDeath: 0
+          OnMaxRange: 0
+          OnSpeedZero: 0
+        changePhaseOnAdditionalDisable: 0
+        ownerSizeAffectsSize: 0
+        homing: 0
+        followingMouse: 0
+        orbital: 0
+        randomSpreadAngle: 0
+        durationOverrides: []
+        positionOffset: {x: 0, y: 0}
+        directionOffsetFactor: 2
+        sizeAffectsOffset: 1
+        rotateToDirection: 0
+        rotateAngleOffset: 0
+        rotateSpeed: 0
+        shouldScaleX: 1
+        shouldScaleY: 1
+        useRendererSize: 0
+        useRendererX: 0
+        useRendererY: 0
+        minRendererX: 1
+        minRendererY: 1
+      combatEffectData:
+        effects: []
+  references:
+    version: 2
+    RefIds: []

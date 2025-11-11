@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7faaa1544ee94e54b9179e8d6f7cfec8, type: 3}
+  m_Name: Girl Adventurer
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterDataNew
+  copySource: {fileID: 0}
+  characterName: Girl
+  description: Character Description
+  icon: {fileID: 21300000, guid: b62bbc14322826e47849ef7d092303e9, type: 3}
+  defaultSprite: {fileID: 4723107735738678597, guid: 25f9aa7a2e2fd42408b32a41240136ce, type: 3}
+  tag: 0
+  actions: {fileID: 11400000, guid: 1e5daa61b2d8e0d41afc0156da290989, type: 2}
+  properties: {fileID: 11400000, guid: 226c602043bbb434ab136ecc823674ee, type: 2}
+  settings: {fileID: 11400000, guid: 958f9a316b6791642aea54fea75f5278, type: 2}
+  componentData: {fileID: 11400000, guid: cca94888dbfaf3e4da64b285f02ccc56, type: 2}

@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Ground
+  - Platform
+  - Neutral
+  - Hero
+  - Monster
+  - UICamera
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Enviroment
+  - Water
+  - UI
+  - Hero
+  - Monster
+  - Projectile
+  - Pickup
+  - Wall
+  - NPC
+  - Interactable
+  - WorldUI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3648040703
+    locked: 0
+  - name: UnderCharacter
+    uniqueID: 1370140139
+    locked: 0
+  - name: Character
+    uniqueID: 225439467
+    locked: 0
+  - name: AboveCharacter
+    uniqueID: 3232429259
+    locked: 0
+  - name: Foreground
+    uniqueID: 772228971
+    locked: 0
+  - name: WorldUI
+    uniqueID: 2302758433
+    locked: 0
+  - name: UI
+    uniqueID: 4113028449
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  - World
+  - UI

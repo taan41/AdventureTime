@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 142c35a7da531f64f8a6b5fbe60e10a7, type: 3}
+  m_Name: StatListData
+  m_EditorClassIdentifier: Assembly-CSharp::StatListData
+  CopySource: {fileID: 0}
+  statDisplayPrefab: {fileID: -184613032159420345, guid: 92e4bff7b06804e44a2f203fe49913f6, type: 3}
+  altNames:
+  - altName: Strength
+    statType: 0
+  - altName: Ineteligence
+    statType: 1
+  - altName: Agility
+    statType: 2
+  - altName: Vitality
+    statType: 3
+  - altName: Health Regen
+    statType: 7
+  - altName: Stamina Regen
+    statType: 10
+  - altName: Mana Regen
+    statType: 13
+  - altName: Damage Buff
+    statType: 16
+  - altName: Crit Chance
+    statType: 17
+  - altName: Crit Damage
+    statType: 18
+  - altName: Attack Speed
+    statType: 19
+  - altName: Move Speed
+    statType: 23
+  - altName: Magic Resistance
+    statType: 21
+  - altName: Damage Reduction
+    statType: 22
+  statDisplayAttributes:
+  - displayName: Strength
+    statType: 0
+    icon: {fileID: 21300000, guid: f72527b497080394f9c72d8550a2f52d, type: 3}
+  - displayName: Ineteligence
+    statType: 1
+    icon: {fileID: 21300000, guid: 72d0827973d4d294a8eb3ce1601d5baf, type: 3}
+  - displayName: Agility
+    statType: 2
+    icon: {fileID: 21300000, guid: a6010f1f658c30d419208adb356fe91b, type: 3}
+  - displayName: Vitality
+    statType: 3
+    icon: {fileID: 21300000, guid: 8e3bc1a9bcf703f4e8ca0bbb9a803427, type: 3}
+  - displayName: Health
+    statType: 4
+    icon: {fileID: 21300000, guid: b550ffd2eb278ca42babc2f6668693b8, type: 3}
+  - displayName: Stamina
+    statType: 5
+    icon: {fileID: 21300000, guid: 0fd11a51b33696a4e8e41e9a2557318a, type: 3}
+  - displayName: Mana
+    statType: 6
+    icon: {fileID: 21300000, guid: 8ebfd7c235287d34697d97ab36874190, type: 3}
+  - displayName: Health Regen
+    statType: 7
+    icon: {fileID: 21300000, guid: ae55ab8c473b99b4f848bcd35df37aec, type: 3}
+  - displayName: Stamina Regen
+    statType: 10
+    icon: {fileID: 21300000, guid: 4eb00a3b2d49cc74ca46b9ff2404901d, type: 3}
+  - displayName: Mana Regen
+    statType: 13
+    icon: {fileID: 21300000, guid: d94880dfc7fd3be4b903650a99e572ed, type: 3}
+  - displayName: Damage Buff
+    statType: 16
+    icon: {fileID: 21300000, guid: 33f2c7a14bd213b46ba99fd219cac1b9, type: 3}
+  - displayName: Crit Chance
+    statType: 17
+    icon: {fileID: 21300000, guid: e0af54057d44413459b3097ec6c54882, type: 3}
+  - displayName: Crit Damage
+    statType: 18
+    icon: {fileID: 21300000, guid: 35293cc193cae8c4fba84fd964563747, type: 3}
+  - displayName: Attack Speed
+    statType: 19
+    icon: {fileID: 21300000, guid: 82cefee4cb6e080418353728ec2ce71b, type: 3}
+  - displayName: Armor
+    statType: 20
+    icon: {fileID: 21300000, guid: 3834cb8a104f2234b8b43ae030b3cca9, type: 3}
+  - displayName: Magic Resistance
+    statType: 21
+    icon: {fileID: 21300000, guid: 56a5b5bb10e6a234ba79d02cdc2b86a9, type: 3}
+  - displayName: Damage Reduction
+    statType: 22
+    icon: {fileID: 21300000, guid: 5c249c185081bbe4f87325f2ec0eb370, type: 3}
+  - displayName: Move Speed
+    statType: 23
+    icon: {fileID: 21300000, guid: c3e23922b470c9844b33fc8b0f9320fa, type: 3}

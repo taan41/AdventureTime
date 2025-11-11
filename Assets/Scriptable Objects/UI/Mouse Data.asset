@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c22cf1efb54f5c84191789e84694e667, type: 3}
+  m_Name: Mouse Data
+  m_EditorClassIdentifier: Assembly-CSharp::MouseManagerData
+  cursorOverlayPrefab: {fileID: 3056411808219220267, guid: be0f42b1603a1a04081c97bc84c9453b, type: 3}
+  itemCursor: {fileID: 6121254432025806294, guid: 9c5417c739ebcb34eaf9277e5c8bb81d, type: 3}
+  shopCursor: {fileID: 2276426559243230311, guid: bdbdda0745f42d44bbab0ad2cf240fa2, type: 3}
+  shopCursorTextFaceColor: {r: 0.9960785, g: 0.9960785, b: 0, a: 1}
+  shopCursorTextOutlineColor: {r: 0.9960785, g: 0.5803922, b: 0, a: 1}

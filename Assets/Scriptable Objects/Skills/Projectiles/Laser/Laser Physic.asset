@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38924f1a8ed4bb34d900c78b25936aa7, type: 3}
+  m_Name: Laser Physic
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectileDataNew
+  copyFrom: {fileID: 0}
+  defaultSprite: {fileID: -1473408168, guid: 6ce8fe6d71722ad4fa88094dbe4537be, type: 3}
+  ComponentData: {fileID: 11400000, guid: 9bac5f4a89fcb6b48b23e51ae3d4de6a, type: 2}
+  PhaseDatas:
+  - phasePosition: 1
+    positionOffset: {x: 0, y: 0}
+    directionOffset: 0
+    enableCollider: 0
+    duration: 0
+    useDurationFactor: 0
+    loopAnimation: 0
+    animation:
+      clipName: 
+      frameRate: 8
+      directionType: 2
+      flipMode: 0
+      Down:
+      - {fileID: 8848508684691224426, guid: 29265236ffd0ad947917cb88f0cc6ea6, type: 3}
+      - {fileID: -544507586559666687, guid: 29265236ffd0ad947917cb88f0cc6ea6, type: 3}
+      - {fileID: 166683523826388493, guid: 29265236ffd0ad947917cb88f0cc6ea6, type: 3}
+      - {fileID: -8829762882272220651, guid: 29265236ffd0ad947917cb88f0cc6ea6, type: 3}
+      - {fileID: -3385369521006614256, guid: 29265236ffd0ad947917cb88f0cc6ea6, type: 3}
+      - {fileID: 8512870, guid: 29265236ffd0ad947917cb88f0cc6ea6, type: 3}
+      - {fileID: 994840878, guid: 29265236ffd0ad947917cb88f0cc6ea6, type: 3}
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    sfxChance: 0
+    sfxClips: []
+  - phasePosition: 1
+    positionOffset: {x: 0, y: 0}
+    directionOffset: 0
+    enableCollider: 1
+    duration: 3
+    useDurationFactor: 1
+    loopAnimation: 1
+    animation:
+      clipName: 
+      frameRate: 8
+      directionType: 2
+      flipMode: 0
+      Down:
+      - {fileID: -1473408168, guid: 6ce8fe6d71722ad4fa88094dbe4537be, type: 3}
+      - {fileID: -1436215801, guid: 6ce8fe6d71722ad4fa88094dbe4537be, type: 3}
+      - {fileID: 803612155, guid: 6ce8fe6d71722ad4fa88094dbe4537be, type: 3}
+      - {fileID: 1769885420, guid: 6ce8fe6d71722ad4fa88094dbe4537be, type: 3}
+      - {fileID: 415302574, guid: 6ce8fe6d71722ad4fa88094dbe4537be, type: 3}
+      - {fileID: 1238541205, guid: 6ce8fe6d71722ad4fa88094dbe4537be, type: 3}
+      - {fileID: -94880267, guid: 6ce8fe6d71722ad4fa88094dbe4537be, type: 3}
+      - {fileID: -1752040901, guid: 6ce8fe6d71722ad4fa88094dbe4537be, type: 3}
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    sfxChance: 0
+    sfxClips: []
+  - phasePosition: 1
+    positionOffset: {x: 0, y: 0}
+    directionOffset: 0
+    enableCollider: 1
+    duration: 0
+    useDurationFactor: 0
+    loopAnimation: 0
+    animation:
+      clipName: 
+      frameRate: 8
+      directionType: 2
+      flipMode: 0
+      Down:
+      - {fileID: -2709393455084117739, guid: 76ba7d852b4e0bb4e834f89c9eb68db2, type: 3}
+      - {fileID: -8258374715176887291, guid: 76ba7d852b4e0bb4e834f89c9eb68db2, type: 3}
+      - {fileID: 9191782104468672731, guid: 76ba7d852b4e0bb4e834f89c9eb68db2, type: 3}
+      - {fileID: -9034172073238343670, guid: 76ba7d852b4e0bb4e834f89c9eb68db2, type: 3}
+      - {fileID: -1162096477046291065, guid: 76ba7d852b4e0bb4e834f89c9eb68db2, type: 3}
+      - {fileID: -1169432835, guid: 76ba7d852b4e0bb4e834f89c9eb68db2, type: 3}
+      - {fileID: -1064615508, guid: 76ba7d852b4e0bb4e834f89c9eb68db2, type: 3}
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    sfxChance: 0
+    sfxClips: []

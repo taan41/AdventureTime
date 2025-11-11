@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b5b4247740bacb49a594a8b776b756e, type: 3}
+  m_Name: Max Mana Potion
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDataNew
+  copyFrom: {fileID: 0}
+  icon: {fileID: 1574297250965444970, guid: cac8c1bcdbcee434ba49926b96151ef4, type: 3}
+  itemName: Max Mana Potion
+  description: +10 & +5% Max Mana
+  itemType: 2
+  rarity: 3
+  equipmentSlot: 0
+  statBuffs:
+  - statType: 6
+    amount: 10
+  statMultipliers:
+  - statType: 6
+    multiplier:
+      type: 0
+      value: 5
+  grantedSkill: {fileID: 0}
+  recoverConsumable: 0
+  stackable: 1
+  maxStack: 99
+  basePrice: 50

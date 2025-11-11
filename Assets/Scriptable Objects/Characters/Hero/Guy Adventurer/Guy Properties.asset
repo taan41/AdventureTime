@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408eadb17d70bda42b8177fa0c52df75, type: 3}
+  m_Name: Guy Properties
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterDataProperties
+  baseStats:
+    Stats:
+    - StatName: STR
+      Type: 0
+      value: 0
+    - StatName: INT
+      Type: 0
+      value: 0
+    - StatName: AGI
+      Type: 0
+      value: 0
+    - StatName: VIT
+      Type: 0
+      value: 0
+    - StatName: Health
+      Type: 0
+      value: 100
+    - StatName: Stamina
+      Type: 0
+      value: 100
+    - StatName: Mana
+      Type: 0
+      value: 100
+    - StatName: HealthRegen
+      Type: 0
+      value: 5
+    - StatName: HealthRegenInterval
+      Type: 0
+      value: 1
+    - StatName: HealthRegenDelay
+      Type: 0
+      value: 2
+    - StatName: StaminaRegen
+      Type: 0
+      value: 10
+    - StatName: StaminaRegenInterval
+      Type: 0
+      value: 1
+    - StatName: StaminaRegenDelay
+      Type: 0
+      value: 2
+    - StatName: ManaRegen
+      Type: 0
+      value: 10
+    - StatName: ManaRegenInterval
+      Type: 0
+      value: 1
+    - StatName: ManaRegenDelay
+      Type: 0
+      value: 2
+    - StatName: DamageBuff
+      Type: 0
+      value: 0
+    - StatName: CritChance
+      Type: 0
+      value: 0
+    - StatName: CritDamage
+      Type: 0
+      value: 1.5
+    - StatName: AttackSpeed
+      Type: 0
+      value: 1
+    - StatName: Armor
+      Type: 0
+      value: 0
+    - StatName: MagicResist
+      Type: 0
+      value: 0
+    - StatName: DamageReduction
+      Type: 0
+      value: 0
+    - StatName: MoveSpeed
+      Type: 0
+      value: 4
+    - StatName: DashSpeedMultiplier
+      Type: 0
+      value: 2
+    - StatName: DashOvertimeFactor
+      Type: 0
+      value: 0.99
+    - StatName: DashDuration
+      Type: 0
+      value: 0.5
+    - StatName: DashInvulDurationFactor
+      Type: 0
+      value: 1
+    - StatName: DashStaminaCost
+      Type: 0
+      value: 40
+    - StatName: Size
+      Type: 0
+      value: 1
+    - StatName: KnockbackResistance
+      Type: 0
+      value: 0
+    - StatName: KnockbackOvertimeFactor
+      Type: 0
+      value: 0
+    - StatName: ImmunityDuration
+      Type: 0
+      value: 0
+  initialSkills: []
+  inventoryRequirements:
+  - requirement:
+      typeRequirement: 0
+      equipRequirement: 0
+    count: 24
+  equipmentRequirements:
+  - requirement:
+      typeRequirement: 1
+      equipRequirement: 1
+    count: 2
+  - requirement:
+      typeRequirement: 1
+      equipRequirement: 2
+    count: 2
+  - requirement:
+      typeRequirement: 1
+      equipRequirement: 3
+    count: 1
+  - requirement:
+      typeRequirement: 1
+      equipRequirement: 4
+    count: 1
+  - requirement:
+      typeRequirement: 1
+      equipRequirement: 5
+    count: 1
+  - requirement:
+      typeRequirement: 1
+      equipRequirement: 6
+    count: 1
+  inventory: []
+  equipments:
+  - data: {fileID: 11400000, guid: 4984507af70b5f24dbaad7fc148aebce, type: 2}
+    quantity: 1
+    requirement:
+      typeRequirement: 0
+      equipRequirement: 0
+    owner: {fileID: 0}
+    slotType: 0
+  lootTable:
+    goldMin: 0
+    goldVariance: 0
+    goldChance: 0
+    items: []

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8953b3b2c529143498818c392e53fee4, type: 3}
+  m_Name: UIManagerData
+  m_EditorClassIdentifier: Assembly-CSharp::UIManagerData
+  CopySource: {fileID: 0}
+  positiveStatColor: {r: 0, g: 1, b: 0, a: 1}
+  negativeStatColor: {r: 1, g: 0, b: 0, a: 1}
+  rarityColors:
+  - rarityName: Legendary
+    rarity: 0
+    mainColor: {r: 1, g: 0.13333334, b: 0.3254902, a: 1}
+    outlineColor: {r: 0.6392157, g: 0.15686275, b: 0.043137256, a: 1}
+  - rarityName: Epic
+    rarity: 1
+    mainColor: {r: 0.8352942, g: 0.20784315, b: 0.9843138, a: 1}
+    outlineColor: {r: 0.48627454, g: 0.07450981, b: 0.5686275, a: 1}
+  - rarityName: Rare
+    rarity: 2
+    mainColor: {r: 0.29411766, g: 0.85098046, b: 0.9843138, a: 1}
+    outlineColor: {r: 0.0627451, g: 0.54509807, b: 0.7490196, a: 1}
+  - rarityName: Uncommon
+    rarity: 3
+    mainColor: {r: 0.5529412, g: 1, b: 0.20000002, a: 1}
+    outlineColor: {r: 0.3803922, g: 0.5882353, b: 0, a: 1}
+  - rarityName: Common
+    rarity: 4
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    outlineColor: {r: 0.41960788, g: 0.41960788, b: 0.41960788, a: 1}
+  textMaterial: {fileID: 2100000, guid: b7d1225b599372244bba3c901835dac1, type: 2}
+  textureBaseMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  textureOutlineMaterial: {fileID: 2100000, guid: 269a31f8c94e3e0498212714b7800d5f, type: 2}
+  mouseItemImagePrefab: {fileID: 6121254432025806294, guid: 9c5417c739ebcb34eaf9277e5c8bb81d, type: 3}
+  itemTooltipOffset: {x: 50, y: 0}
+  itemTooltipPrefab: {fileID: 5453124557037055144, guid: 52ae4109c7ded674dacfd4aeefbc0ee2, type: 3}

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba1cdd3ee53114d41a77c64e7a75ee51, type: 3}
+  m_Name: ResourceBarData
+  m_EditorClassIdentifier: Assembly-CSharp::FloatingResourceBarData
+  CopySource: {fileID: 0}
+  poolSize: 500
+  fadeAfter: 2
+  fadeDuration: 1
+  borderSprite: {fileID: 21300000, guid: 61cb8f0df411fb64986f332acc4fef86, type: 3}
+  borderThickness: 4
+  borderImageType: 1
+  backgroundSprite: {fileID: -7443756053782179069, guid: 21f61cbfcb404ef43b2cb2a1de3602ee, type: 3}
+  healthBarSettings:
+    sprite: {fileID: 21300000, guid: 853f282a34192f14a90f5a9b9440083a, type: 3}
+    size: {x: 5, y: 2}
+    offset: {x: 0, y: 2, z: 0}
+    drawMode: 1
+    fillMethod: 0
+    fillOriginHorizontal: 0
+    fillOriginVertical: 0
+    fillOrigin360: 0
+  staminaBarSettings:
+    sprite: {fileID: 21300000, guid: 3ddac36dc70e38f48860e0dfe4e7b573, type: 3}
+    size: {x: 1, y: 1}
+    offset: {x: 0, y: 0, z: 0}
+    drawMode: 1
+    fillMethod: 1
+    fillOriginHorizontal: 0
+    fillOriginVertical: 0
+    fillOrigin360: 0
+  manaBarSettings:
+    sprite: {fileID: 21300000, guid: 2a01df034571dad4cb37aa5efe81cdc2, type: 3}
+    size: {x: 1, y: 2}
+    offset: {x: -1.2, y: 0.7, z: 0}
+    drawMode: 1
+    fillMethod: 1
+    fillOriginHorizontal: 0
+    fillOriginVertical: 0
+    fillOrigin360: 0

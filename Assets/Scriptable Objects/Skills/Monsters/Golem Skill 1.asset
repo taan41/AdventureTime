@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16baf9c7bbbaf5146a4a72e5a7e28632, type: 3}
+  m_Name: Golem Skill 1
+  m_EditorClassIdentifier: Assembly-CSharp::SkillDataNew
+  copyFrom: {fileID: 0}
+  icon: {fileID: -1792804618, guid: 8669d7f59bf1c1948bf0125faf0da58e, type: 3}
+  skillName: Golem Skill 1
+  description: 
+  type: 1
+  rangeType: 2
+  directionType: 2
+  baseStats:
+    Stats:
+    - StatName: Damage
+      Type: 0
+      value: 5
+    - StatName: Recovery
+      Type: 0
+      value: 1
+    - StatName: Cooldown
+      Type: 0
+      value: 30
+    - StatName: StaminaCost
+      Type: 0
+      value: 0
+    - StatName: ManaCost
+      Type: 0
+      value: 0
+    - StatName: CastTime
+      Type: 0
+      value: 8
+    - StatName: ActivateRange
+      Type: 0
+      value: 10
+    - StatName: ProjectileSpeedBonus
+      Type: 0
+      value: 0
+    - StatName: ProjectileRangeBonus
+      Type: 0
+      value: 0
+    - StatName: ProjectileDurationBonus
+      Type: 0
+      value: 0
+    - StatName: ProjectileSizeBonus
+      Type: 0
+      value: 0
+    - StatName: ProjectileHitIntervalBonus
+      Type: 0
+      value: 0
+    - StatName: ProjectileKnockbackBonus
+      Type: 0
+      value: 0
+    - StatName: ProjectileKnockbackDurationBonus
+      Type: 0
+      value: 0
+    - StatName: ProjectileSpreadAngleBonus
+      Type: 0
+      value: 0
+    - StatName: ProjectileCountBonus
+      Type: 0
+      value: 0
+  rules:
+    autoCast: 0
+    cooldownAfterCast: 1
+  phaseData: []
+  projectileDatas:
+  - physicData: {fileID: 11400000, guid: 2eec7b5fb67f6484a9b1f112b46618e1, type: 2}
+    specificData:
+      projectileName: Laser
+      count: 1
+      spawnDelay: 0
+      spawnGap: 0
+      stats:
+        damageFactor: 1
+        healFactor: 1
+        staminaRecoveryFactor: 0
+        manaRecoveryFactor: 0
+        size: 1
+        speed: 0.25
+        speedOverTimeFactor: 1
+        range: 0
+        hitInterval: 1
+        knockback: 0
+        knockbackDuration: 0
+        spreadAngle: 0
+      settings:
+        additionalDisableCondition:
+          OnOwnerDeath: 1
+          OnMaxRange: 0
+          OnSpeedZero: 0
+        changePhaseOnAdditionalDisable: 0
+        phaseLoop: 0
+        ownerSizeAffectsSize: 0
+        homing: 1
+        followingMouse: 0
+        orbital: 1
+        randomSpreadAngle: 0
+        targetingRange: 5
+        maxTargetingCall: 1
+        overrideDirection: 0
+        positionOffset: {x: 0, y: 4.2}
+        directionOffsetFactor: 0.2
+        sizeAffectsOffset: 0
+        rotateToDirection: 1
+        rotateAngleOffset: 180
+        rotateSpeed: 5
+        shouldScaleX: 1
+        shouldScaleY: 1
+        useRendererSize: 1
+        useRendererX: 0
+        useRendererY: 1
+        minRendererX: 8
+        minRendererY: 40
+      combatEffectData:
+        effects: []
+  references:
+    version: 2
+    RefIds: []

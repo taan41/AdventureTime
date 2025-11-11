@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38924f1a8ed4bb34d900c78b25936aa7, type: 3}
+  m_Name: Flying Sword Proj
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectileDataNew
+  CopySource: {fileID: 0}
+  ComponentData: {fileID: 11400000, guid: e54135c7955241446a6fd8ade21aebe8, type: 2}
+  BaseStats:
+    Stats:
+    - StatName: SkillDamageFactor
+      Type: 0
+      value: 1
+    - StatName: Speed
+      Type: 0
+      value: 15
+    - StatName: Range
+      Type: 0
+      value: 5
+    - StatName: Size
+      Type: 0
+      value: 1
+    - StatName: Duration
+      Type: 0
+      value: 5
+    - StatName: Knockback
+      Type: 0
+      value: 0
+    - StatName: KnockbackDuration
+      Type: 0
+      value: 0
+  combatEffectData:
+    effects:
+    - condition: 0
+      effect: {fileID: 11400000, guid: 695ef7d9e31847342b866e66971a8501, type: 2}
+      parameters:
+        rid: 4818553708951634572
+  Rule:
+    launchDirection: 5
+    hitCondition: 1
+    disableCondition:
+      OnOwnerDisable: 0
+      OnAnimationEnd: 0
+      OnMaxRange: 0
+      OnMaxDuration: 1
+      OnSpeedZero: 0
+    followSource: 0
+    homing: 1
+    homeToMouse: 0
+    hitInterval: 0.2
+    speedOverTimeFactor: 1
+  Setting:
+    positionOffset: {x: 0, y: 1, z: 0}
+    directionOffsetFactor: 1
+    sizeAffectsOffset: 0
+    turnToDirection: 1
+    turnAngleOffset: 30
+    turnSpeed: 480
+    static: 0
+    staticTurnWithOffset: 0
+    useScaleX: 1
+    useScaleY: 1
+    rendererSizeOverScale: 0
+    useRendererX: 0
+    useRendererY: 0
+    minRendererX: 1
+    minRendererY: 1
+    disableHitBoxOnNonActivePhase: 1
+  AnimationData:
+    DefaultSprite: {fileID: 21300000, guid: 933ba2132fcb15e46885921a964b2869, type: 3}
+    DefaultClip:
+      frameRate: 1
+      sprites:
+      - {fileID: 21300000, guid: 933ba2132fcb15e46885921a964b2869, type: 3}
+    UseAnimation: 1
+    UseDownOnly: 1
+    UseFourWayOnly: 0
+    UseFlip: 0
+    FlipAsLeft: 1
+    ClipEntries:
+    - entryName: Starting
+      frameRate: 8
+      directionType: 0
+      useFlip: 0
+      spriteFacingRightOriginally: 1
+      Down: []
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    - entryName: Active
+      frameRate: 8
+      directionType: 0
+      useFlip: 0
+      spriteFacingRightOriginally: 1
+      Down:
+      - {fileID: 21300000, guid: 933ba2132fcb15e46885921a964b2869, type: 3}
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+    - entryName: Ending
+      frameRate: 8
+      directionType: 0
+      useFlip: 0
+      spriteFacingRightOriginally: 1
+      Down: []
+      Up: []
+      Left: []
+      Right: []
+      LeftDown: []
+      LeftUp: []
+      RightDown: []
+      RightUp: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 4818553708951634572
+      type: {class: CreateProjectileEffect/ProjectileParameter, ns: , asm: Assembly-CSharp}
+      data:
+        chance: 0.2
+        projectileData: {fileID: 11400000}

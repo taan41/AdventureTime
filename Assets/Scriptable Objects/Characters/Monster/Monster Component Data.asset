@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 164a530d67c638e409e8e0cdade302ae, type: 3}
+  m_Name: Monster Component Data
+  m_EditorClassIdentifier: Assembly-CSharp::ComponentData
+  copyFrom: {fileID: 0}
+  drawMode: 0
+  rendererSize: {x: 1, y: 1}
+  spriteTileMode: 0
+  spriteSortPoint: 1
+  sortingLayer: 2
+  orderInLayer: 0
+  isTrigger: 1
+  autoSize: 1
+  autoSizeMultiplierX: 1
+  autoSizeMultiplierY: 1
+  autoSizeOffsetMultiplierX: 0
+  autoSizeOffsetMultiplierY: 0
+  manualDirection: 0
+  manualSize: {x: 1, y: 1}
+  manualOffset: {x: 0, y: 0}
+  bodyType: 1
+  collisionDetection: 0
+  sleepMode: 1
+  interpolation: 0
+  constraints: 4

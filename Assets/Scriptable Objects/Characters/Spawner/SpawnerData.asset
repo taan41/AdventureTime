@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15a61865b4b7f9547863ccaaa2896675, type: 3}
+  m_Name: SpawnerData
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerDataNew
+  spawnGroups:
+  - characterData: {fileID: 11400000, guid: dac4c89bd8282c043b604caf9f3410b1, type: 2}
+    spawnPositionType: 0
+    worldPosition: {x: 0, y: 0, z: 0}
+    offcamPositionOffset: 0
+    spawnPerWave: 5
+    waveCount: 30
+    waveInterval: 1
+    startTime: 1
+    notify: 0
+    notifyColor: {r: 0, g: 1, b: 0, a: 1}
+  - characterData: {fileID: 11400000, guid: 785e87db16ff6c84791e5983645fd726, type: 2}
+    spawnPositionType: 0
+    worldPosition: {x: 0, y: 0, z: 0}
+    offcamPositionOffset: 0
+    spawnPerWave: 2
+    waveCount: 25
+    waveInterval: 1
+    startTime: 5
+    notify: 0
+    notifyColor: {r: 0, g: 1, b: 0, a: 1}
+  - characterData: {fileID: 11400000, guid: ab6282ae585df064ba822d1627eb4ed9, type: 2}
+    spawnPositionType: 0
+    worldPosition: {x: 0, y: 0, z: 0}
+    offcamPositionOffset: -5
+    spawnPerWave: 1
+    waveCount: 1
+    waveInterval: 1
+    startTime: 45
+    notify: 1
+    notifyColor: {r: 0, g: 1, b: 0, a: 1}
+  - characterData: {fileID: 11400000, guid: 77315e94ada8f30449d8a1df302a839b, type: 2}
+    spawnPositionType: 0
+    worldPosition: {x: 0, y: 0, z: 0}
+    offcamPositionOffset: -5
+    spawnPerWave: 1
+    waveCount: 1
+    waveInterval: 1
+    startTime: 50
+    notify: 1
+    notifyColor: {r: 0, g: 1, b: 0, a: 1}
+  - characterData: {fileID: 11400000, guid: e34f7372378339e47b50c80eeb16c71c, type: 2}
+    spawnPositionType: 0
+    worldPosition: {x: 0, y: 0, z: 0}
+    offcamPositionOffset: 0
+    spawnPerWave: 1
+    waveCount: 1
+    waveInterval: 1
+    startTime: 60
+    notify: 1
+    notifyColor: {r: 1, g: 0, b: 0, a: 1}
+  - characterData: {fileID: 11400000, guid: dac4c89bd8282c043b604caf9f3410b1, type: 2}
+    spawnPositionType: 0
+    worldPosition: {x: 0, y: 0, z: 0}
+    offcamPositionOffset: 0
+    spawnPerWave: 10
+    waveCount: 25
+    waveInterval: 1
+    startTime: 75
+    notify: 0
+    notifyColor: {r: 1, g: 0, b: 0, a: 1}
+  - characterData: {fileID: 11400000, guid: 785e87db16ff6c84791e5983645fd726, type: 2}
+    spawnPositionType: 0
+    worldPosition: {x: 0, y: 0, z: 0}
+    offcamPositionOffset: 0
+    spawnPerWave: 5
+    waveCount: 25
+    waveInterval: 1
+    startTime: 75
+    notify: 0
+    notifyColor: {r: 1, g: 0, b: 0, a: 1}
+  - characterData: {fileID: 11400000, guid: ab6282ae585df064ba822d1627eb4ed9, type: 2}
+    spawnPositionType: 0
+    worldPosition: {x: 0, y: 0, z: 0}
+    offcamPositionOffset: -5
+    spawnPerWave: 1
+    waveCount: 1
+    waveInterval: 1
+    startTime: 100
+    notify: 1
+    notifyColor: {r: 0, g: 1, b: 0, a: 1}
+  - characterData: {fileID: 11400000, guid: 77315e94ada8f30449d8a1df302a839b, type: 2}
+    spawnPositionType: 0
+    worldPosition: {x: 0, y: 0, z: 0}
+    offcamPositionOffset: -5
+    spawnPerWave: 1
+    waveCount: 1
+    waveInterval: 1
+    startTime: 105
+    notify: 1
+    notifyColor: {r: 0, g: 1, b: 0, a: 1}
+  - characterData: {fileID: 11400000, guid: e34f7372378339e47b50c80eeb16c71c, type: 2}
+    spawnPositionType: 0
+    worldPosition: {x: 0, y: 0, z: 0}
+    offcamPositionOffset: 0
+    spawnPerWave: 3
+    waveCount: 1
+    waveInterval: 1
+    startTime: 110
+    notify: 1
+    notifyColor: {r: 1, g: 0, b: 0, a: 1}
+  offcamSpawnPointXMultiplier: 1.1
+  offcamSpawnPointYMultiplier: 1.1
+  timeStartAtSecond: 0
