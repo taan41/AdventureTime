@@ -16,7 +16,6 @@ public class MapManager : MonoBehaviour
 	public static MapManager Instance { get; private set; }
 
 	public Tilemap groundTilemap;
-	// public TileBase[] groundTiles;
 	[SerializeField] private GroundTileInfo[] groundTileInfos;
 	public int tileSize = 1;
 
@@ -52,11 +51,8 @@ public class MapManager : MonoBehaviour
 			info.weight += prevWeight;
 			prevWeight = info.weight;
 		}
-	}
 
-	private void Start()
-	{
-		cameraRef = Camera.main;
+		cameraRef = CameraManager.Instance.mainCamera;
 	}
 
 	private void Update()

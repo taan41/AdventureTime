@@ -7,19 +7,12 @@ using UnityEngine;
 [InitializeOnLoad]
 public static class ScriptOrderSetter
 {
-	static readonly Dictionary<System.Type, int> scriptOrders = new()
-    {
-        { typeof(FloatingUIObjectManager), 1 },
-        { typeof(PickupManager), 1 },
-        { typeof(HeroParty), 2 },
-        { typeof(SpawnerNew), 2 },
-        { typeof(InfoOverlayManager), 3 },
-        { typeof(MenuManager), 3 },
-        { typeof(CursorOverlay), 5 },
-    };
+	static readonly Dictionary<System.Type, int> scriptOrders = new();
 	
     static ScriptOrderSetter()
     {
+        scriptOrders[typeof(CameraManager)] = -1;
+        
         scriptOrders[typeof(FloatingUIObjectManager)] = 1;
         scriptOrders[typeof(PickupManager)] = 1;
         scriptOrders[typeof(CursorOverlay)] = 1;
