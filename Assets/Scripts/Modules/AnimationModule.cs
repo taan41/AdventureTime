@@ -165,20 +165,14 @@ public class AnimationModule : ModuleBase
 		}
 	}
 
-	public event Action<object> OnOneTimeClipEnd;
-
 	private readonly SpriteRenderer spriteRenderer;
 	private Sprite defaultSprite = null;
 	public Sprite[] sprites = null;
 	public float frameDuration = 0f;
-	private float clipDuration = 0f;
 	private int currentIndex = 0;
 	private int frameCount = 0;
 	private float frameTimer = 0f;
 	private bool loop = true;
-	private bool oneTimeClip = false;
-	private bool forcePlay = false;
-	private object oneTimeClipToken = null;
 
 	public AnimationModule(SpriteRenderer spriteRenderer) : base(true, false)
 	{
@@ -188,18 +182,6 @@ public class AnimationModule : ModuleBase
 	public override void DoUpdate(float deltaTime)
 	{
 		if (sprites == null) return;
-
-		if (clipDuration > 0f)
-		{
-			clipDuration -= deltaTime;
-
-			if (clipDuration <= 0f)
-			{
-				clipDuration = 0f;
-				forcePlay = false;
-				if (oneTimeClip) OnOneTimeClipEnd?.Invoke(oneTimeClipToken);
-			}
-		}
 
 		frameTimer += deltaTime;
 		if (frameTimer >= frameDuration)
@@ -214,11 +196,6 @@ public class AnimationModule : ModuleBase
 				}
 				else
 				{
-					if (clipDuration <= 0f)
-					{
-						forcePlay = false;
-						OnOneTimeClipEnd?.Invoke(oneTimeClipToken);
-					}
 					currentIndex = frameCount - 1;
 				}
 			}
@@ -241,44 +218,6 @@ public class AnimationModule : ModuleBase
 	public void SetFlipX(bool flip)
 	{
 		spriteRenderer.flipX = flip;
-	}
-
-	public bool PlayClip(AnimationClip clip, bool resetFrame = false, float duration = 0f, bool oneTime = false, bool dynamicFrameRate = false, bool force = false)
-	{
-		if (clip == null || !clip.IsValid) return false;
-		if (!force && forcePlay) return false;
-
-		// defaultClip ??= clip;
-
-		// CurrentClip = clip;
-		// frameCount = CurrentClip.sprites.Length;
-		// frameDuration = dynamicFrameRate && duration > 0f
-		// 	? duration / frameCount
-		// 	: 1f / CurrentClip.frameRate;
-
-		sprites = clip.sprites;
-		frameCount = sprites.Length;
-		frameDuration = dynamicFrameRate && duration > 0f
-			? duration / frameCount
-			: 1f / clip.frameRate;
-
-		clipDuration = duration;
-		oneTimeClip = oneTime;
-		forcePlay = force;
-		loop = !oneTime;
-
-		if (resetFrame)
-		{
-			currentIndex = 0;
-			frameTimer = 0f;
-		}
-		else
-		{
-			currentIndex %= frameCount;
-		}
-
-		spriteRenderer.sprite = sprites[currentIndex];
-		return true;
 	}
 
 	public bool Play(Sprite[] sprites, float frameRate, bool resetFrameIndex = false, bool loop = true)
@@ -308,16 +247,6 @@ public class AnimationModule : ModuleBase
 
 		spriteRenderer.sprite = this.sprites[currentIndex];
 		return true;
-	}
-
-	public bool PlayOneTimeClip(AnimationClip clip, object token = null, float duration = 0f, bool dynamicFrameRate = false, bool forcePlay = false)
-	{
-		if (PlayClip(clip, true, duration, true, dynamicFrameRate, forcePlay))
-		{
-			oneTimeClipToken = token;
-			return true;
-		}
-		return false;
 	}
 }
 

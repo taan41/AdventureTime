@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class SpawnerNew : MonoBehaviour
@@ -85,7 +86,7 @@ public class SpawnerNew : MonoBehaviour
 		{
 			if (Character.ActiveCharacters[Character.CharacterTag.Monster].Count == 0)
 			{
-				ResultScreen.Instance.ShowVictory();
+				StartCoroutine(EndStage());
 				enabled = false;
 			}
 			return;
@@ -157,7 +158,7 @@ public class SpawnerNew : MonoBehaviour
 		if (group.notify) InfoOverlayManager.Instance.SetDebugText($"{group.characterData.characterName} has spawned at {spawnPosition}", group.notifyColor);
 	}
 
-    Vector3 GetOffcamSpawnPoint(float offset)
+	Vector3 GetOffcamSpawnPoint(float offset)
 	{
 		if (spawnerRNG.NextFloat() > 0.5f)
 		{
@@ -173,5 +174,11 @@ public class SpawnerNew : MonoBehaviour
 				spawnerRNG.NextFloat(offcamBottomLeftSpawnPoint.position.y - offset, offcamTopRightSpawnPoint.position.y + offset),
 				0);
 		}
+	}
+	
+	IEnumerator EndStage()
+	{
+		yield return new WaitForSeconds(2f);
+		ResultScreen.Instance.ShowVictory();
 	}
 }

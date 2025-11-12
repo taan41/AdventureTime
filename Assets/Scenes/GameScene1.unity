@@ -542,59 +542,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &224898236
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 224898237}
-  - component: {fileID: 224898238}
-  m_Layer: 5
-  m_Name: Result Screen Mng
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &224898237
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 224898236}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3296404195153560795}
-  m_Father: {fileID: 1365053003}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &224898238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 224898236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2d36065a3c074c4ab5b041b4638a838, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ResultScreen
-  victoryPanel: {fileID: 499923856}
-  defeatPanel: {fileID: 531646929}
-  playAgainButton: {fileID: 4402176534067379042}
-  mainMenuButton: {fileID: 1153448666}
 --- !u!1 &303606422
 GameObject:
   m_ObjectHideFlags: 0
@@ -2013,7 +1960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f575c8cfb5aa2a44e96c1cbca6a92238, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerNew
-  data: {fileID: 11400000, guid: 445a5a4986d612e49ad978bc2648bdd6, type: 2}
+  data: {fileID: 11400000, guid: e8feac04f7a983b48b04c7a6bd75ca79, type: 2}
   elapsedTime: 0
   nextGroupTime: 0
   groupIndex: 0
@@ -2150,7 +2097,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 224898237}
+  - {fileID: 3296404195153560795}
   m_Father: {fileID: 96343350}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3172,12 +3119,12 @@ RectTransform:
   m_Children:
   - {fileID: 3116711309113057267}
   - {fileID: 4238620703660818334}
-  m_Father: {fileID: 224898237}
+  m_Father: {fileID: 1365053003}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 640.00006, y: 360}
+  m_SizeDelta: {x: -240, y: -130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3418879681235614352
 GameObject:
@@ -3583,13 +3530,30 @@ GameObject:
   - component: {fileID: 7051000217044638031}
   - component: {fileID: 5222128864304876832}
   - component: {fileID: 5521441615050881480}
+  - component: {fileID: 8671401783059297563}
   m_Layer: 5
   m_Name: Result Screen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
+--- !u!114 &8671401783059297563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8671401783059297562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2d36065a3c074c4ab5b041b4638a838, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ResultScreen
+  victoryPanel: {fileID: 499923856}
+  defeatPanel: {fileID: 531646929}
+  playAgainButton: {fileID: 4402176534067379042}
+  mainMenuButton: {fileID: 1153448666}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
